@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="{{ lang }}">
+  <head>
+    {% include "partials/head.njk" %}
+  </head>
+  <body>
+    <header class="container">
+      <a class="brand" href="{{ site.baseUrl }}{{ lang }}/">{{ site.title }}</a>
+      {% include "partials/nav.njk" %}
+    </header>
+
+    <main class="container">
+      <article>
+        <h1>{{ title }}</h1>
+        {{ content | safe }}
+      </article>
+    </main>
+
+    <footer class="container">
+      <p>&copy; {{ site.title }} {{ "" | year }}</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "title": "Proyecto Inv.ES",
+  "description": "Sitio informativo del Proyecto Inv.ES",
+  "baseUrl": "/",
+  "defaultLang": "es",
+  "langs": [
+    "es",
+    "en"
+  ]
+}

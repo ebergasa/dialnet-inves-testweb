@@ -1,0 +1,11 @@
+<style>
+.lang-switcher { position: absolute; right: 1rem; top: .8rem; font-size: .9rem; }
+.lang-switcher a { text-decoration: none; margin-left: .5rem; }
+</style>
+<div class="lang-switcher" aria-label="Idioma / Language">
+  {% for code in site.langs %}
+    {% set other = page.url | replace('/' + lang + '/', '/' + code + '/') %}
+    <a href="{{ site.baseUrl }}{{ other | replace('/index.html','/') }}"
+       hreflang="{{ code }}" lang="{{ code }}">{{ code | upper }}</a>
+  {% endfor %}
+</div>

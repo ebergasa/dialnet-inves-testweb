@@ -1,7 +1,7 @@
 {
   "title": "Proyecto Inv.ES",
   "description": "Sitio informativo del Proyecto Inv.ES",
-  "baseUrl": "/",
+  "baseUrl": "/dialnet-inves-testweb/",
   "defaultLang": "es",
   "langs": [
     "es",

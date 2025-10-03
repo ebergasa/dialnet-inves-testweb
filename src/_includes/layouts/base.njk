@@ -2,14 +2,15 @@
 <html lang="{{ lang }}">
   <head>
     {% include "partials/head.njk" %}
-  </head>
+  </head>   
   <body>
-    <header class="container">
+    <header class="container-fluid site-header">
       <a class="brand" href="{{ site.baseUrl }}{{ lang }}/">{{ site.title }}</a>
+      <section class="container">
       <nav class="navbar">        
-        {% include "partials/navbar.njk" %}
+        {%   include "partials/navbar.njk" %}
       </nav>
-
+      </section>
     </header>
 
     
@@ -20,13 +21,16 @@
       </article>
     </main>
 
-  
-    <footer class="container">
-      <nav>        
+
+    <footer class="container-fluid">
+    <section class="container">
+
+      <nav>
         {% include "partials/navfooter.njk" %}
       </nav>
-
       <p>&copy; {{ site.title }} {{ "" | year }}</p>
+    </section>
+    
     </footer>
   </body>
 </html>

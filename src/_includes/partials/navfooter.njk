@@ -1,0 +1,12 @@
+{% set current = (page.url | replace('/index.html','/')) %}
+<ul>
+  {% for item in nav[lang] %}
+    {% set isActive = (current == item.url) %}
+    <li>
+      <a href="{{ site.baseUrl }}{{ item.url }}" {% if isActive %}aria-current="page"{% endif %}>
+        {{ item.title }}
+      </a>
+      
+    </li>
+  {% endfor %}
+</ul>

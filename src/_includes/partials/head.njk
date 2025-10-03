@@ -1,11 +1,20 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+
+
+
 <title>{{ title }} · {{ site.title }} </title>
 <meta name="description" content="{{ page.excerpt or description or site.description }}">
 <link rel="icon" href="{{ site.baseUrl }}favicon.ico" sizes="any">
 <link rel="icon" href="{{ site.baseUrl }}favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="{{ site.baseUrl }}apple-touch-icon.png">
+
 <link rel="stylesheet" href="{{ site.baseUrl }}styles.css">
+
 <link rel="canonical" href="{{ site.baseUrl | url }}{{ page.url | replace('/index.html','/') }}">
 
 {% if site.langs %}
@@ -14,5 +23,5 @@
     <link rel="alternate" hreflang="{{ code }}" href="{{ site.baseUrl }}{{ altUrl | replace('/index.html','/') }}">
   {% endfor %}
 {% endif %}
-<meta http-equiv="content-language" content="{{ lang }}">
+<meta http-equiv="content-language" content="{{ lang }}"> 
 {% include "partials/lang-switcher.njk" %}

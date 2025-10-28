@@ -5,6 +5,11 @@ lang: es
 permalink: "/es/coordinacion/"
 ---
 
-Gobernanza del proyecto
+La coordinación del proyecto corre a cargo de Fundación Dialnet, bla,bla...
+
+## Gobernanza
+
+Existen dos comités de gobernanza del proyecto... con los miembros, et...
+
 
 

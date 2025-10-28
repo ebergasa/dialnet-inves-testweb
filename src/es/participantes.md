@@ -37,4 +37,4 @@ permalink: "/es/participantes/"
 - Universidad Politécnica de Cartagena (Portal)
 - Universidad Pública de Navarra (Portal)
 - Universidad Miguel Hernández
-Universitat de les Illes Balears (Portal)
+- Universitat de les Illes Balears (Portal)

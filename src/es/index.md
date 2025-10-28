@@ -2,7 +2,7 @@
 title: "Bienvenido"
 layout: layouts/base.njk
 lang: es
-description: "Información del Proyecto X"
+description: "Información del Proyecto Inv.ES"
 permalink: "/es/"
 ---
-Este sitio recoge la información clave del **Proyecto X**: objetivos, equipo, financiación y metodología.
+Este sitio recoge la información clave del **Inv.ES**: objetivos, coordinación, financiación y metodología.
